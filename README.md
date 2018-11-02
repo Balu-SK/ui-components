@@ -1,5 +1,7 @@
 # UiComponents
 
+This has a webpage related stuffs of internally shared components.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.4.
 
 ## Development server
