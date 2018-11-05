@@ -13,6 +13,7 @@
     position: sticky;
     top: 0;
     color: #1d4061;
+    z-index: 1;
 }
 .logo{
     height: 40px;
@@ -49,6 +50,7 @@ nav{
     text-transform: uppercase;
     cursor: pointer;
     text-decoration: none;
+    margin-top: 3px;
 }
 .title:hover{
     background-color: #435a6f;

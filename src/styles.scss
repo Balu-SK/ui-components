@@ -52,4 +52,17 @@ body{
         }
     }
 
+    .demo-placeholder{
+        -webkit-box-shadow: 0 0 0 1px rgba(67,90,111,.14);
+        background-color: #fff;
+        border-radius: 3px;
+        box-shadow: 0 0 0 1px rgba(67,90,111,.14);
+        color: #66788a;
+        margin: 4px;
+        padding: 16px;
+    }
+    .h2{
+        color: #66788a;
+    }
+
 }

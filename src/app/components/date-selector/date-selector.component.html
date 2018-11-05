@@ -4,4 +4,40 @@
         <div> Date Picker Component </div>
     </div>
 </header>
-<fk-date-picker></fk-date-picker>
+
+<div class="each-demo">
+    <h2 class="heading h2">Basic</h2><br>
+    <div class="demo-placeholder">
+        <fk-date-picker [placeholder]="'Choose'"></fk-date-picker>
+    </div>
+</div>
+<br>
+<br>
+
+<div class="each-demo">
+    <h2 class="heading h2">Icon</h2><br>
+    <div class="demo-placeholder">
+        <fk-date-picker [placeholder]="'Choose'" dateFormat="yy/mm/dd" [readonlyInput]="true" showIcon="true"></fk-date-picker>
+    </div>
+</div>
+<br>
+<br>
+
+
+<div class="each-demo">
+    <h2 class="heading h2">Time</h2><br>
+    <div class="demo-placeholder">
+        <fk-date-picker [placeholder]="'Choose'" dateFormat="yy/mm/dd" [readonlyInput]="true" showTime="true" showIcon="true"></fk-date-picker>
+    </div>
+</div>
+<br>
+<br>
+    
+<div class="each-demo">
+    <h2 class="heading h2">Range Picker</h2><br>
+    <div class="demo-placeholder">
+        <fk-date-picker [placeholder]="'Choose'" dateFormat="yy/mm/dd" selectionMode="range" [readonlyInput]="true" showIcon="true"></fk-date-picker>
+    </div>
+</div>
+<br>
+<br>
